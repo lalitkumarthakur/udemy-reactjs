@@ -20,4 +20,5 @@ console.log(`Default Api Key = ${defaultKey}`); // default is only used when the
 // importing everything all at once but using "*".
 import * as myCalculator from "./file1.js";
 
-myCalculator.calculator();
+myCalculator.calculator(); // calling calculator arrow function.
+myCalculator.calcu();
