@@ -8,6 +8,21 @@
 // 	// return element for newArray, after executing something
 //   });
 
+// decalred and exported the array.
+export let subjects = ["Physis", "Chemistry", "Biology"];
+
+// exported and declared a function which will be imported in app.js file then called.
 export function funMap() {
-	console.log("Alert!");
+	// now, map() method creates a new array so we need to store them into a new variable. to capture the new array -
+
+	const newArray = subjects.map((item) => {
+		return item + "!";
+	});
+	console.log(newArray);
+
+	// We can also transform the origonal array into something new like objects. Example -
+	const objArray = subjects.map((item) => {
+		({ text: item });
+	});
+	console.log(objArray);
 }
