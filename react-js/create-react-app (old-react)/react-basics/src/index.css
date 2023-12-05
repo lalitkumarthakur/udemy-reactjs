@@ -1,3 +1,11 @@
+/*
+  This is Root/Main CSS of this Web Application/ Old React Course.
+
+  All the CSS which are global and are required in more  than 1 component should be added here. 
+
+  Any CSS that is specific to any component should be added in their seperate CSS file.
+*/
+
 body {
   margin: 0.6rem 0.8rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
