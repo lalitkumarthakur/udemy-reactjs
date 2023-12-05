@@ -1,13 +1,17 @@
+/*
+  This is Root/Main CSS of this Web Application/ Old React Course.
+
+  All the CSS which are global and are required in more  than 1 component should be added here. 
+
+  Any CSS that is specific to any component should be added in their seperate CSS file.
+*/
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  margin: 0.6rem 0.8rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  background-color: #282c34;
+  display: flex;
+  color: white;
 }
