@@ -1,6 +1,7 @@
+// This section "Old React is made frpm Trech Gun Youtube channel. This section contains my personal note to make moe and others understand react.js"
+
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import { render } from "react-dom";
 import "./index.css"; // This is global CSS file.
 import App from "./App"; // Importing Parent Component "App.js".
 
