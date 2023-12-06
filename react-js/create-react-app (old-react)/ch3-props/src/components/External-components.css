@@ -1,0 +1,13 @@
+.External-Component-Container {
+    background: yellow;
+    border-radius: 12px;
+    padding: 0.6rem 1rem;
+    color: Black !important
+}
+
+.Inline-component {
+    background: green;
+    border-radius: 12px;
+    padding: 0.6rem 1rem;
+    color: white !important;
+}
