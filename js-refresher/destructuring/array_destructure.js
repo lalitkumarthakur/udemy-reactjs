@@ -12,6 +12,7 @@ const [name1, name2, name3, name4, name5] = [
 ];
 // In the above example, we store the array elements in their respective array live variables.
 
+console.log(`Array destructuring - `);
 console.log("First name = ", name1);
 console.log("Second name = ", name2);
 console.log("Third name = ", name3);
