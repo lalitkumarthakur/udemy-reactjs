@@ -19,5 +19,4 @@ export const arrayDe = () => {
 	console.log("Third name = ", name3);
 	console.log("Fourth name = ", name4);
 	console.log("Fifth name = ", name5);
-	console.log("\n\n\n");
 };
