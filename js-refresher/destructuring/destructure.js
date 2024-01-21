@@ -7,8 +7,7 @@ function executeCode() {
 	objectDe();
 	console.log(`\n\n`);
 	arrayDe();
-	console.log(`\n\n`);
-	functionDe();
+	functionDe(); // This line is calling the functionDe function
 }
 
-executeCode();
+export default executeCode; // This line is exporting the executeCode function
